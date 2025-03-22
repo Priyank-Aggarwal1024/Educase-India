@@ -1,0 +1,49 @@
+.input-comp {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+.input-comp-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  height: 100%;
+  z-index: 1;
+  text-align: left;
+  font: 14px/17px Rubik;
+  letter-spacing: 0px;
+  color: #000;
+  opacity: 1;
+  padding: 12px 16px 11px;
+}
+.input-comp-label {
+  min-width: 103px;
+  height: 17px;
+  background: #fff;
+  opacity: 1;
+  display: block;
+  text-align: left;
+  font: 13px/17px Rubik;
+  letter-spacing: 0px;
+  color: #6c25ff;
+  opacity: 1;
+  z-index: 2;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 9px;
+  padding-left: 5px;
+}
+.input-comp-input::placeholder {
+  text-align: left;
+  font: 14px/17px Rubik;
+  letter-spacing: 0px;
+  color: #919191;
+  opacity: 1;
+}
+.input-comp-required {
+  text-align: left;
+  font: 13px/17px Rubik;
+  letter-spacing: 0px;
+  color: #dd4a3d;
+}
